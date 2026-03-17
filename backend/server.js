@@ -12,9 +12,7 @@ import cloudinaryConfig from "./Upload Cloudinary/cloudinaryConfig.js";
 const corsOptions = {
   origin: function (origin, callback) {
     const allowedOrigins = [
-      "http://localhost:3001",
-      "https://glamishbeauty.vercel.app",
-      "https://glamish-beauty.vercel.app",
+      process.env.CLIENT_URL,
     ];
 
     if (!origin || allowedOrigins.includes(origin)) {
