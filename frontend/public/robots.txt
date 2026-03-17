@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://glamish-beauty.vercel.app
+
+# Sitemaps
+Sitemap: https://glamish-beauty.vercel.app/sitemap.xml

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // 👈 This is the missing part!
+    "paths": {
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@typings/*": ["./src/typings/*"],
+      "@public/*": ["./public/*"],
+      "@constant/*": ["./src/lib/constants/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@state/*": ["./src/state/*"],
+      "@images/*": ["./public/*"],
+      "@fonts/*": ["./public/fonts/*"],
+      "@store/*": ["./src/store/*"]
+    }
+  }
+}
